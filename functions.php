@@ -18,7 +18,7 @@ function imh_theme_js() {
 add_action( 'wp_enqueue_scripts', 'imh_theme_js');
 
 function remove_footer_admin () {
-echo 'Fueled by <a href="http://www.inmotionhosting.com" target="_blank">InMotion Hosting</a> | Designed by <a href="http://www.inmotionhosting.com/webdesign" target="_blank">IMW</a> | WordPress Hosting: <a href="http://www.inmotionhosting.com/wordpress-hosting" target="_blank">Made with love - IMW</a></p>';
+echo 'Fueled by <a href="http://www.inmotionhosting.com" target="_blank">InMotion Hosting</a> | Designed by <a href="http://www.inmotionhosting.com/webdesign" target="_blank">IMW</a> | WordPress Hosting: <a href="http://www.inmotionhosting.com/wordpress-hosting" target="_blank">Host with Us</a></p>';
 }
 
 add_filter('admin_footer_text', 'remove_footer_admin');
